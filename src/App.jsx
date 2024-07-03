@@ -1,15 +1,19 @@
 import { useState } from 'react'
 import './App.css'
 import { FaBeer } from "react-icons/fa";
+import Navbar from './Component/Navbar/Navbar';
+import Coversection from './Component/Coversection/Coversection';
 
 function App() {
  
   return (
     <>
       
-      <h1>My Recipe</h1> 
-      <button><FaBeer></FaBeer></button>
-      
+      <div>
+         <Navbar></Navbar>
+         <Coversection></Coversection>
+      </div>
+     
     </>
   )
 }
